@@ -1,0 +1,54 @@
+#BlueJ class context
+comment0.target=class\ Crypt
+comment0.text=\nCrypt\ reads\ a\ given\ alphametic\ and\ attempts\ to\ find\ one\ solution\ for\ it.\n\n@author\ michael\ king\ and\ michael\ fradkin\ \n@version\ 1.0\n\n
+comment1.params=s
+comment1.target=long\ numberConvert(String)
+comment1.text=\nmethod\ to\ convert\ a\ word\ into\ its\ current\ number\ value\ <BR>\npre\:\ s\ \!\=\ null\ <BR>\npost\:\ the\ actual\ number\ the\ word\ may\ be\ representing\ is\ returned\ <BR>\nComplexity\:\ Big\ O(N)<BR>\nMemory\ Usage\:\ Big\ O(N)<BR>\n@param\ s\ is\ the\ string\ representation\ of\ the\ word\ to\ be\ converted\n@throws\ nothing\n@return\ the\ current\ long\ value\ of\ the\ string\n\n
+comment10.params=
+comment10.target=boolean\ validPerm()
+comment10.text=\nmethod\ to\ test\ if\ a\ permutation\ is\ a\ valid\ one\ that\ can\ be\ used.\ <BR>\npre\:\ none\ <BR>\npost\:\ returns\ true\ if\ permutation\ has\ no\ zero\ values\ for\ leading\ characters\ in\ crypt,\ false\ otherwise<BR>\nComplexity\:\ Big\ O(N)<BR>\nMemory\ Usage\:\ Big\ O(1)<BR>\n@param\ none\n@throws\ nothing\n@return\ trut\ if\ permutation\ has\ no\ zero\ val\ for\ leading\ chars\ in\ crypt\ string,\ otherwise\ false\n\n
+comment11.target=nonZeroCharsSize
+comment11.text=Size\ of\ the\ above\ arrays\ -\ lets\ us\ know\ what\ index\ to\ add\ to\ next\ \n
+comment12.target=MAX_VALUE
+comment12.text=constant\ that\ makes\ sure\ all\ letters\ are\ single\ digits\ \n
+comment13.target=crypt
+comment13.text=the\ string\ representation\ of\ the\ alphametic,\ including\ addends\ and\ sum\ \n
+comment14.target=maxWordSize
+comment14.text=holds\ the\ maximum\ length\ of\ an\ addend\ \n
+comment15.params=
+comment15.target=boolean\ isValid()
+comment15.text=\nmethod\ to\ determine\ the\ value\ of\ the\ invariant.\ <BR>\npre\:\ none\ <BR>\npost\:\ returns\ true\ if\ invariant\ is\ true,\ otherwise\ false.\ \ <BR>\nComplexity\:\ Big\ O(1)<BR>\nMemory\ Usage\:\ Big\ O(1)<BR>\n@param\ none\n@throws\ nothing\n@return\ true\ if\ invariant\ is\ true,\ otherwise\ false.\n\n
+comment16.target=attempts
+comment16.text=captures\ the\ number\ of\ attempts\ in\ trying\ to\ solve\ an\ alphametic\ arithmetically\ \n
+comment17.params=
+comment17.target=Object\ clone()
+comment17.text=\nmethod\ to\ clone\ a\ Crypt\ object.\ <BR>\npre\:\ none\ <BR>\npost\:\ returns\ a\ new\ Crypt\ object\ independent\ of\ its\ copy.\ \ <BR>\nComplexity\:\ Big\ O(1)<BR>\nMemory\ Usage\:\ Big\ O(1)<BR>\n@param\ none\n@throws\ nothing\n@return\ the\ new\ Crypt\ object.\n\n
+comment18.target=firstChar
+comment18.text=captures\ the\ first\ character\ of\ the\ summation\ word\ (used\ to\ increase\ speed)\n
+comment19.params=crypt
+comment19.target=Crypt(String)
+comment19.text=\nConstructor\ for\ Crypt\ objects\ <BR>\npre\:\ crypt\ \!\=\ null\ <BR>\npost\:\ a\ crypt\ has\ been\ attempted\ to\ have\ been\ solved\ and\ either\ found\ a\ match\ or\ no\ solution<BR>\nComplexity\:\ Big\ O(N)<BR>\nMemory\ Usage\:\ Big\ O(N)<BR>\n@param\ crypt\ is\ the\ string\ representation\ of\ an\ alphametic\n@throws\ BadInputException\ if\ input\ is\ not\ valid\n@return\ nothing\n\n
+comment2.params=out
+comment2.target=void\ printResults(java.io.PrintWriter)
+comment2.text=\nmethod\ to\ print\ the\ results\ to\ a\ given\ PrintWriter\ object\ <BR>\npre\:\ out\ \!\=\ null\ <BR>\npost\:\ results\ are\ printed.\ \ <BR>\nComplexity\:\ Big\ O(1)<BR>\nMemory\ Usage\:\ Big\ O(1)<BR>\n@param\ out\ is\ the\ PrintWriter\ object\ to\ be\ printed\ to\n@throws\ nothing\n@return\ nothing\n\n
+comment20.target=lastTokenLength
+comment20.text=captures\ the\ length\ of\ the\ summation\ word\ in\ the\ crypt\ (used\ to\ increase\ speed)\ \n
+comment21.target=nonZeroChars
+comment21.text=An\ array\ that\ holds\ the\ characters\ that\ cannot\ be\ zero\ \n
+comment3.target=loops
+comment3.text=the\ underlying\ storage\ container\ for\ solving\ the\ alphametic\n
+comment4.target=numUniqueChars
+comment4.text=captures\ the\ number\ of\ unique\ characters\ in\ a\ given\ alphametic\ \n
+comment5.target=matchFound
+comment5.text=captures\ the\ truth\ of\ solving\ a\ given\ alphametic\ \n
+comment6.target=numbers
+comment6.text=the\ string\ representation\ of\ the\ alphametic\ converted\ to\ successful\ numbers\ \n
+comment7.target=numAddends
+comment7.text=captures\ the\ number\ of\ addends\ in\ the\ crypt\ \n
+comment8.params=
+comment8.target=boolean\ isMatch()
+comment8.text=\nmethod\ to\ determine\ if\ the\ int\ values\ of\ all\ words\ add\ up\ to\ the\ int\ value\ of\ the\ last\ word\ <BR>\npre\:\ none\ <BR>\npost\:\ returns\ true\ if\ it\ has\ been\ successfully\ solved,\ otherwise\ false\ \ <BR>\nComplexity\:\ Big\ O(N)<BR>\nMemory\ Usage\:\ Big\ O(N)<BR>\n@param\ nothing\n@throws\ nothing\n@return\ true\ if\ match\ is\ found,\ otherwise\ false\n\n
+comment9.params=c
+comment9.target=boolean\ isUnique(char)
+comment9.text=\nmethod\ to\ determine\ if\ a\ character\ is\ unique\ or\ not.\ <BR>\npre\:\ none\ <BR>\npost\:\ returns\ true\ if\ character\ has\ not\ been\ added\ before,\ otherwise\ false\ \ <BR>\nComplexity\:\ Big\ O(1)\ +\ Big\ O(N)<BR>\nMemory\ Usage\:\ Big\ O(1)<BR>\n@param\ c\ is\ the\ letter\ to\ be\ checked\ for\ uniqueness\n@throws\ nothing\n@return\ true\ if\ character\ has\ not\ been\ added\ before,\ otherwise\ false\n\n
+numComments=22
